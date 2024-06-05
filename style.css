@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("C:/Users/INDU/OneDrive/Desktop/prodigy_Task2/image2 (2).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: orange;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+button {
+    background-color: #569058;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+#laps li {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#laps li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.lap-btn {
+    background-color: #e74c3c;
+}
+
+.lap-btn:hover {
+    background-color: #ec971f;
+}
